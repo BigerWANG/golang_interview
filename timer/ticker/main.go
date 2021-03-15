@@ -14,7 +14,6 @@ func main() {
 			case intChan <- 1:  // 表示随机发送
 			case intChan <- 2:
 			case intChan <- 3:
-
 			}
 		}
 		fmt.Printf("End. [sender]")

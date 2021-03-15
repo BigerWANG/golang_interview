@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4136bcb7-f790-44f3-be65-f6e55d49465e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/reflects_test/reflect_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timer/ticker/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timer/ticker/main.go" afterDir="false" />
     </list>
@@ -123,17 +124,7 @@
       <recent name="$PROJECT_DIR$/timer/chantimeout" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="golang_interview" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/work_pool/main.go" />
-      <package value="golang_interview" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestRe2 in golang_interview/reflects_test">
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="golang_interview" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -164,30 +155,42 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="TestRe in golang_interview/reflects_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_interview" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/priority_select/main.go" />
-      <package value="golang_interview" />
-      <directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$/reflects_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang_interview/reflects_test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestRe\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRe2 in golang_interview/reflects_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang_interview" />
+      <working_directory value="$PROJECT_DIR$/reflects_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang_interview/reflects_test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestRe2\E$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build main.go (3)" />
       <item itemvalue="Go Build.go build main.go (4)" />
+      <item itemvalue="Go Test.TestRe in golang_interview/reflects_test" />
+      <item itemvalue="Go Test.TestRe2 in golang_interview/reflects_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestRe2 in golang_interview/reflects_test" />
+        <item itemvalue="Go Test.TestRe in golang_interview/reflects_test" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +220,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
