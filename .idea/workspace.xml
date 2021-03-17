@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="GoTestRunConfiguration" name="TestEverySec in golang_interview/reflects_test" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4136bcb7-f790-44f3-be65-f6e55d49465e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/reflects_test/reflect_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/ticker/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/timer/ticker/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reflects_test/reflect_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/reflects_test/reflect_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,14 @@
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,38 +136,8 @@
       <recent name="$PROJECT_DIR$/timer/chantimeout" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestRe2 in golang_interview/reflects_test">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="golang_interview" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/timer/timebase/main.go" />
-      <package value="golang_interview" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="golang_interview" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/timer/chantimeout/main.go" />
-      <package value="golang_interview" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="golang_interview" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/timer/ticker/main.go" />
-      <package value="golang_interview" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRe in golang_interview/reflects_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestRefCallFunc in golang_interview/reflects_test">
+    <configuration name="TestRef4 in golang_interview/reflects_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_interview" />
       <working_directory value="$PROJECT_DIR$/reflects_test" />
       <framework value="gotest" />
@@ -163,10 +145,10 @@
       <package value="golang_interview/reflects_test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestRe\E$" />
+      <pattern value="^\QTestRef4\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestRe2 in golang_interview/reflects_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRefCallFunc in golang_interview/reflects_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang_interview" />
       <working_directory value="$PROJECT_DIR$/reflects_test" />
       <framework value="gotest" />
@@ -174,23 +156,56 @@
       <package value="golang_interview/reflects_test" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestRe2\E$" />
+      <pattern value="^\QTestRefCallFunc\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRefGetVal in golang_interview/reflects_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang_interview" />
+      <working_directory value="$PROJECT_DIR$/reflects_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang_interview/reflects_test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestRefGetVal\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRefStruct in golang_interview/reflects_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang_interview" />
+      <working_directory value="$PROJECT_DIR$/reflects_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang_interview/reflects_test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestRefStruct\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRefStructTag in golang_interview/reflects_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang_interview" />
+      <working_directory value="$PROJECT_DIR$/reflects_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang_interview/reflects_test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestRefStructTag\E$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go (2)" />
-      <item itemvalue="Go Build.go build main.go (3)" />
-      <item itemvalue="Go Build.go build main.go (4)" />
-      <item itemvalue="Go Test.TestRe in golang_interview/reflects_test" />
-      <item itemvalue="Go Test.TestRe2 in golang_interview/reflects_test" />
+      <item itemvalue="Go Test.TestRef4 in golang_interview/reflects_test" />
+      <item itemvalue="Go Test.TestRefStruct in golang_interview/reflects_test" />
+      <item itemvalue="Go Test.TestRefStructTag in golang_interview/reflects_test" />
+      <item itemvalue="Go Test.TestRefGetVal in golang_interview/reflects_test" />
+      <item itemvalue="Go Test.TestRefCallFunc in golang_interview/reflects_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestRe2 in golang_interview/reflects_test" />
-        <item itemvalue="Go Test.TestRe in golang_interview/reflects_test" />
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Test.TestRefCallFunc in golang_interview/reflects_test" />
+        <item itemvalue="Go Test.TestRefGetVal in golang_interview/reflects_test" />
+        <item itemvalue="Go Test.TestRefStructTag in golang_interview/reflects_test" />
+        <item itemvalue="Go Test.TestRefStruct in golang_interview/reflects_test" />
+        <item itemvalue="Go Test.TestRef4 in golang_interview/reflects_test" />
       </list>
     </recent_temporary>
   </component>
@@ -231,9 +246,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/reflects_test/reflect_test.go</url>
+          <line>95</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/local/go/src/fmt/print.go">
